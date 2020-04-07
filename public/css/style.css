@@ -197,20 +197,21 @@ h1 {
 	.connexForm{
 		width: 70%;
 		height: auto;
-		margin-top: 10%;
+		margin-top: 8%;
 		margin-left: 15%;
 		margin-right: 15%;
 		padding-top: 5%;
-		padding-bottom: 5%;
-		border: 1px solid greenyellow;
+		padding-bottom: 7%;
 		border-radius: 8px 8px;
 		background-color: rgba(163, 163, 163, 0.945);
 		text-align: center;
+		box-shadow: 1px 1px 2px 2px;
 	}
 	#tableLogin{
 		width: 100%;
 		height: auto;
-		border: 2px solid blue;
+		background: rgb(0, 0, 0);
+		color: rgb(255, 255, 255);
 		display: inline-flex;
 		flex-direction: row;
 		justify-content: center;
@@ -465,7 +466,7 @@ h1 {
 	}
 
 	/*--- PAGE DE CONTACT --- */
-	.containerContact{
+	.containContact{
 		width: 70%;
 		height: auto;
 		background-color: rgba(245, 245, 245, 0.719);
@@ -476,6 +477,20 @@ h1 {
 		justify-content: center;
 		align-content: center;
 		align-items: center;
+	}
+	.contactForm{
+		width: 80%;
+		height: auto;
+		border: 1px solid red;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+	#inputContact{
+		width: 500px;
+		height: auto;
 	}
 
 	/*--- FOOTER ---*/
