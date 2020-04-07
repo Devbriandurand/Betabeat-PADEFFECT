@@ -1,8 +1,8 @@
 <?php ob_start(); ?>
 <?php $title = 'titleContact' ?>
 <h1 id="titleContact">CONTACT</h1>
-		<section class="containerContact">
-			<form action="index.php?action=contact" method="POST"  class="formContact">
+		<section class="containContact">
+			<form action="index.php?action=contact" method="POST"  class="contactForm">
 	 					<table class="tableContact">
 	 						<tr>
 	 							<td>
