@@ -44,53 +44,30 @@
   </p>
 </div>
 
+<hr id="hrPrincipal">
 
+<h2 class="h2Principal">Les dernières actus</h2>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="containActus">
 <?php
-    // while ($data = $posts->fetch())
-    // {
+    while ($data = $posts->fetch())
+     {
 ?> 
-        <!-- <h3>
+        <h3 class="h3Actus">
             <?= htmlspecialchars($data['title']) ?>
             <em>le <?= $data['creation_date_fr'] ?></em>
-        </h3> -->
+        </h3>
+          <p id="contentActus">
+              <?= nl2br($data['content']) ?>
+                <br /><br/> <br/><br />
+                <em><a id="enSavoir" href="index.php?action=post&amp;id=<?= $data['id'] ?>"><strong>En savoir +</strong></a></em>
+          </p>
         
-        <!-- <p>
-            <?= nl2br($data['content']) ?>
-            <br /><br /> <br /><br />
-            <em><a id="linkSuitPost" href="index.php?action=post&amp;id=<?= $data['id'] ?>"><strong>En savoir +</strong></a></em>
-        </p>
-        <hr id="hrListPosts"> -->
 <?php
-    // }
-    // $posts->closeCursor();
+    }
+    $posts->closeCursor();
 ?>
-    <!-- </div> -->
-
+</div>
 
 
 <script src="./js/slideshow.js"></script>  

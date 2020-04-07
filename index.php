@@ -7,7 +7,7 @@ try
 {   
     if (isset($_GET['action']))
     {
-        if ($_GET['action'] == 'listPosts')
+        if ($_GET['action'] == 'home')
         {
             listPosts();
         }

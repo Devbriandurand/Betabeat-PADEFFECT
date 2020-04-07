@@ -91,9 +91,9 @@
     </div>
   </div>
 
-<hr id="hrProfil">
+<hr id="hrPrincipal">
 
-<h2 class="h2Profil">Les dernières actus</h2>
+<h2 class="h2Principal">Les dernières actus</h2>
     <div class="recapNews">
     <table id="tableProfil">
         <caption>News du jour</caption>
@@ -123,7 +123,8 @@
         <?php endforeach; ?>
     </table>
 	</div>
-	
+    
+    
 
 	<script src="./js/beat.js"></script> 
 <?php $content = ob_get_clean(); ?>

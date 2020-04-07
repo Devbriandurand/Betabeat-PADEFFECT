@@ -1,6 +1,6 @@
 <?php ob_start(); ?>
 
-    <h1 id="titleInscription">INSCRIPTION</h1>
+    <h1>INSCRIPTION</h1>
     <form class="formulaireInscription" action="index.php?action=inscription" method="POST" name="formInscription">
         <fieldset>
                 <legend id="titleLegendInscription" align="center"><strong>Formulaire d'inscription</strong></legend>

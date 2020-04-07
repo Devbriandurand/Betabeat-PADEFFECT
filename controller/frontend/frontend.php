@@ -10,7 +10,7 @@ require_once('model/CommentManager.php');
 {
     $postManager = new PostManager();
     $posts = $postManager->getPosts();
-    require('view/frontend/listPostsView.php');
+    require('view/frontend/home.php');
 }
 
  function post()

@@ -41,7 +41,7 @@
 	 						</tr>
 	 						<tr>
 	 							<td id="tdTextareaContact">
-	 								<textarea id="inputTextarea" placeholder=" Veuillez saisir votre message..." rows="15" required></textarea>
+	 								<textarea id="textareaContact" placeholder=" Veuillez saisir votre message..." rows="15" required></textarea>
 	 							</td>
 	 						</tr>
 	 						<tr>
